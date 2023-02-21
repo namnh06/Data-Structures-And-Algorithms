@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/two-sum/
 export function twoSum(nums: number[], target: number): number[] | void {
     const numsLength = nums.length;
     if (numsLength < 2 || numsLength > Math.pow(10, 4)) {

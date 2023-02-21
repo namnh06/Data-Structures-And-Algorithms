@@ -1,10 +1,6 @@
 import { assert } from 'chai';
 import { twoSum } from '../../src/1-two-sum';
 
-beforeEach(async () => {
-
-});
-
 describe('Two Sum', () => {
     it('case: nums = [2, 7, 11, 15] - target = 9', () => {
         const result = twoSum.call(null, [2, 7, 11, 15], 9);
