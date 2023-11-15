@@ -16,4 +16,9 @@ describe('Two Sum', () => {
         const result = twoSum.call(null, [3, 3], 6);
         assert.deepEqual(result, [0, 1]);
     });
+
+    it('case: nums = [3,2,3]] - target = 6', () => {
+        const result = twoSum.call(null, [3, 2, 3], 6);
+        assert.deepEqual(result, [0, 2]);
+    });
 });

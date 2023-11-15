@@ -15,4 +15,8 @@ describe('Two Sum', () => {
         const result = _1_two_sum_1.twoSum.call(null, [3, 3], 6);
         chai_1.assert.deepEqual(result, [0, 1]);
     });
+    it('case: nums = [3,2,3]] - target = 6', () => {
+        const result = _1_two_sum_1.twoSum.call(null, [3, 2, 3], 6);
+        chai_1.assert.deepEqual(result, [0, 2]);
+    });
 });
