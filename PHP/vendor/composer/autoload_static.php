@@ -35,7 +35,8 @@ class ComposerStaticInit657b85759b97fae05fc2983bd4abadf7
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'LeetCode\\PHP\\FizzBuzz' => __DIR__ . '/../..' . '/src/FizzBuzz.php',
+        'LeetCode\\PHP\\FizzBuzz' => __DIR__ . '/../..' . '/src/FizzBuzz/FizzBuzz.php',
+        'LeetCode\\PHP\\NumberOfSteps' => __DIR__ . '/../..' . '/src/NumberOfSteps/NumberOfSteps.php',
         'PHPUnit\\Event\\Application\\Finished' => __DIR__ . '/..' . '/phpunit/phpunit/src/Event/Events/Application/Finished.php',
         'PHPUnit\\Event\\Application\\FinishedSubscriber' => __DIR__ . '/..' . '/phpunit/phpunit/src/Event/Events/Application/FinishedSubscriber.php',
         'PHPUnit\\Event\\Application\\Started' => __DIR__ . '/..' . '/phpunit/phpunit/src/Event/Events/Application/Started.php',

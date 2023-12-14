@@ -1,8 +1,8 @@
-<?php declare(strict_types=1);
+<?php
+declare(strict_types=1);
 namespace LeetCode\PHP;
 
 use PHPUnit\Framework\TestCase;
-
 final class FizzBuzzTest extends TestCase
 {
     public function testClassConstructor(): void

@@ -1,5 +1,8 @@
-<?php declare(strict_types=1);
+<?php
+// https://leetcode.com/problems/fizz-buzz/
+declare(strict_types=1);
 namespace LeetCode\PHP;
+
 class FizzBuzz
 {
     public int $number;

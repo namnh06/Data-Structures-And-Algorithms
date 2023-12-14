@@ -7,7 +7,8 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
-    'LeetCode\\PHP\\FizzBuzz' => $baseDir . '/src/FizzBuzz.php',
+    'LeetCode\\PHP\\FizzBuzz' => $baseDir . '/src/FizzBuzz/FizzBuzz.php',
+    'LeetCode\\PHP\\NumberOfSteps' => $baseDir . '/src/NumberOfSteps/NumberOfSteps.php',
     'PHPUnit\\Event\\Application\\Finished' => $vendorDir . '/phpunit/phpunit/src/Event/Events/Application/Finished.php',
     'PHPUnit\\Event\\Application\\FinishedSubscriber' => $vendorDir . '/phpunit/phpunit/src/Event/Events/Application/FinishedSubscriber.php',
     'PHPUnit\\Event\\Application\\Started' => $vendorDir . '/phpunit/phpunit/src/Event/Events/Application/Started.php',

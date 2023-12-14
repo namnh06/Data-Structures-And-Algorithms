@@ -2,7 +2,6 @@ import { assert } from 'chai';
 import { fizzBuzz } from '../../src/412-Fizz-Buzz';
 
 describe('412-Fizz-Buzz', () => {
-
     it('Input: n = 3 - Output: ["1","2","Fizz"]', () => {
         const result = fizzBuzz.call(null, 3);
         const expected = ["1", "2", "Fizz"];
