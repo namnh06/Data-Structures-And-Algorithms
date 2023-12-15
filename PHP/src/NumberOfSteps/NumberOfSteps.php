@@ -1,17 +1,21 @@
-<?php 
+<?php
+
 // https://leetcode.com/problems/fizz-buzz/
 declare(strict_types=1);
+
 namespace LeetCode\PHP;
 
-class NumberOfSteps 
+class NumberOfSteps
 {
     public int $number;
 
-    function __construct(int $number) {
+    public function __construct(int $number)
+    {
         $this->number = $number;
     }
 
-    public function execute(): int {
+    public function execute(): int
+    {
         $step = 0;
         while($this->number > 0) {
             if($this->number % 2 !== 0) {

@@ -1,8 +1,11 @@
 <?php
+
 declare(strict_types=1);
+
 namespace LeetCode\PHP;
 
 use PHPUnit\Framework\TestCase;
+
 final class FizzBuzzTest extends TestCase
 {
     public function testClassConstructor(): void
@@ -13,7 +16,7 @@ final class FizzBuzzTest extends TestCase
         $this->assertSame($input, $result);
     }
 
-    public function testFirstCase() : void
+    public function testFirstCase(): void
     {
         $input = 3;
         $fizzBuzz = new FizzBuzz($input);
@@ -22,7 +25,7 @@ final class FizzBuzzTest extends TestCase
         $this->assertSame($expected, $result);
     }
 
-    public function testSecondCase() : void
+    public function testSecondCase(): void
     {
         $input = 5;
         $fizzBuzz = new FizzBuzz($input);
@@ -31,7 +34,7 @@ final class FizzBuzzTest extends TestCase
         $this->assertSame($expected, $result);
     }
 
-    public function testThirdCase() : void
+    public function testThirdCase(): void
     {
         $input = 15;
         $fizzBuzz = new FizzBuzz($input);

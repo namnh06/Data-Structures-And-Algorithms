@@ -1,6 +1,8 @@
 <?php
+
 // https://leetcode.com/problems/fizz-buzz/
 declare(strict_types=1);
+
 namespace LeetCode\PHP;
 
 class FizzBuzz
@@ -18,11 +20,11 @@ class FizzBuzz
         for($index = 1; $index <= $this->number; $index++) {
             $temporaryString = (string)$index;
 
-            if($index%3 === 0) {
+            if($index % 3 === 0) {
                 $temporaryString = "Fizz";
             }
 
-            if($index%5 === 0) {
+            if($index % 5 === 0) {
                 if($temporaryString !== "Fizz") {
                     $temporaryString = "Buzz";
                 } else {

@@ -1,13 +1,15 @@
-<?php 
+<?php
+
 // https://leetcode.com/problems/fizz-buzz/
 declare(strict_types=1);
+
 namespace LeetCode\PHP;
 
 use PHPUnit\Framework\TestCase;
 
 final class NumberOfStepsTest extends TestCase
 {
-    public function testClassConstructor(): void 
+    public function testClassConstructor(): void
     {
         $input = 3;
         $object = new NumberOfSteps($input);
