@@ -14,6 +14,7 @@ return array(
     'LeetCode\\PHP\\ListNode' => $baseDir . '/src/MiddleLinkedList/ListNode.php',
     'LeetCode\\PHP\\MiddleLinkedList' => $baseDir . '/src/MiddleLinkedList/MiddleLinkedList.php',
     'LeetCode\\PHP\\NumberOfSteps' => $baseDir . '/src/NumberOfSteps/NumberOfSteps.php',
+    'LeetCode\\PHP\\RootEqualsSumOfChildren' => $baseDir . '/src/RootEqualsSumOfChildren/RootEqualsSumOfChildren.php',
     'Normalizer' => $vendorDir . '/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php',
     'PHPUnit\\Event\\Application\\Finished' => $vendorDir . '/phpunit/phpunit/src/Event/Events/Application/Finished.php',
     'PHPUnit\\Event\\Application\\FinishedSubscriber' => $vendorDir . '/phpunit/phpunit/src/Event/Events/Application/FinishedSubscriber.php',

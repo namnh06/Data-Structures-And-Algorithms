@@ -171,6 +171,7 @@ class ComposerStaticInit657b85759b97fae05fc2983bd4abadf7
         'LeetCode\\PHP\\ListNode' => __DIR__ . '/../..' . '/src/MiddleLinkedList/ListNode.php',
         'LeetCode\\PHP\\MiddleLinkedList' => __DIR__ . '/../..' . '/src/MiddleLinkedList/MiddleLinkedList.php',
         'LeetCode\\PHP\\NumberOfSteps' => __DIR__ . '/../..' . '/src/NumberOfSteps/NumberOfSteps.php',
+        'LeetCode\\PHP\\RootEqualsSumOfChildren' => __DIR__ . '/../..' . '/src/RootEqualsSumOfChildren/RootEqualsSumOfChildren.php',
         'Normalizer' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php',
         'PHPUnit\\Event\\Application\\Finished' => __DIR__ . '/..' . '/phpunit/phpunit/src/Event/Events/Application/Finished.php',
         'PHPUnit\\Event\\Application\\FinishedSubscriber' => __DIR__ . '/..' . '/phpunit/phpunit/src/Event/Events/Application/FinishedSubscriber.php',
