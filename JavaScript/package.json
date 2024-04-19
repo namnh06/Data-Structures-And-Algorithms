@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "test": "npm run build && mocha test/**/*.spec.js"
+    "test": "npm run build && mocha $(find test -name '*.spec.js')",
+    "test:specific": "npm run build && mocha"
   },
   "devDependencies": {
     "@types/chai": "^4.3.4",
