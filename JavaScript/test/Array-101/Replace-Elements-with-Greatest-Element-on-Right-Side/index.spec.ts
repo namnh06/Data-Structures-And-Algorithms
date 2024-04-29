@@ -1,5 +1,5 @@
 import { assert } from "chai";
-import { replaceElements } from "./../../../src/Array-101/Replace-Elements-with-Greatest-Element-on-Right-Side";
+import { replaceElements } from "../../../src/Array-101/Replace-Elements-with-Greatest-Element-on-Right-Side";
 
 describe("Replace-Elements-with-Greatest-Element-on-Right-Side", () => {
   it("Input: [] - Output: []", () => {

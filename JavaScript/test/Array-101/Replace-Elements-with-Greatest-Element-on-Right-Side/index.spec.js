@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const chai_1 = require("chai");
-const Replace_Elements_with_Greatest_Element_on_Right_Side_1 = require("./../../../src/Array-101/Replace-Elements-with-Greatest-Element-on-Right-Side");
+const Replace_Elements_with_Greatest_Element_on_Right_Side_1 = require("../../../src/Array-101/Replace-Elements-with-Greatest-Element-on-Right-Side");
 describe("Replace-Elements-with-Greatest-Element-on-Right-Side", () => {
     it("Input: [] - Output: []", () => {
         let arr = [];
