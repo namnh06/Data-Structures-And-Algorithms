@@ -5,6 +5,8 @@ export function combineArraysSorted(
   const flen: number = firstArray.length;
   const slen: number = secondArray.length;
   let result: number[] = [];
+  let i: number = 0;
+  let j: number = 0;
 
   if (flen === 0) {
     return secondArray;
@@ -14,23 +16,20 @@ export function combineArraysSorted(
     return firstArray;
   }
 
-  let pointer: number = 0;
-  while (pointer < flen && pointer < slen) {
-    if (firstArray[pointer] <= secondArray[pointer]) {
-      result.push(firstArray[pointer]);
-      result.push(secondArray[pointer++]);
+  while (i < flen && j < slen) {
+    if (firstArray[i] <= secondArray[j]) {
+      result.push(firstArray[i++]);
     } else {
-      result.push(secondArray[pointer]);
-      result.push(firstArray[pointer++]);
+      result.push(secondArray[j++]);
     }
   }
 
-  while (pointer < flen) {
-    result.push(firstArray[pointer++]);
+  while (i < flen) {
+    result.push(firstArray[i++]);
   }
 
-  while (pointer < slen) {
-    result.push(firstArray[pointer++]);
+  while (j < slen) {
+    result.push(secondArray[j++]);
   }
 
   return result;

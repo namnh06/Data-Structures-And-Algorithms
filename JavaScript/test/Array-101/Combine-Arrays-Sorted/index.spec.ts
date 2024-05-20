@@ -36,4 +36,18 @@ describe("Combine Arrays Sorted", function () {
     const expected: number[] = [1, 2, 2, 4];
     assert.deepEqual(combineArraysSorted(firstArray, secondArray), expected);
   });
+
+  it("Input: [1, 2] [2, 4, 5] - Output: [1, 2, 2, 4, 5]", () => {
+    const firstArray: number[] = [1, 2];
+    const secondArray: number[] = [2, 4, 5];
+    const expected: number[] = [1, 2, 2, 4, 5];
+    assert.deepEqual(combineArraysSorted(firstArray, secondArray), expected);
+  });
+
+  it("Input: [1, 2, 6] [2, 4, 5] - Output: [1, 2, 2, 4, 5, 6]", () => {
+    const firstArray: number[] = [1, 2, 6];
+    const secondArray: number[] = [2, 4, 5];
+    const expected: number[] = [1, 2, 2, 4, 5, 6];
+    assert.deepEqual(combineArraysSorted(firstArray, secondArray), expected);
+  });
 });
