@@ -18,6 +18,8 @@ class Solution:
                 left += 1
             answer = max(answer, right - left + 1)
         return answer
+    
+        # brute force
         # sub_str: str = ""
         # answer: int = 0
         # for c in my_string:
