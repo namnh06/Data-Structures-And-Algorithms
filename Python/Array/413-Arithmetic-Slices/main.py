@@ -7,15 +7,25 @@ class Solution():
         n: int = len(nums)
         if n < 3:
             return 0
+        # Dynamic Programming
+        dp: list[int] = [0] * n # Space Complexity: O(n)
+        total_slices: int = 0
+        for i in range(2,n): # Time Complexity: O(n)
+            if nums[i] - nums[i-1] == nums[i-1] - nums[i-2]:
+                dp[i] = dp[i-1] + 1
+                total_slices += dp[i]
+                
+        return total_slices
         
-        left: int = 0
-        answer: int = 0
-        for right in range(2, n): # Time Complexity: O(n))
-            if not nums[right] - nums[right-1] == nums[right-1] - nums[right-2]:
-                left = right-1
-            answer += max(right - left + 1 - 2,0)
-        # Space Complexity: O(1)
-        return answer  
+        # Sliding Window
+        # left: int = 0
+        # answer: int = 0
+        # for right in range(2, n): # Time Complexity: O(n))
+        #     if not nums[right] - nums[right-1] == nums[right-1] - nums[right-2]:
+        #         left = right-1
+        #     answer += max(right - left + 1 - 2,0)
+        # # Space Complexity: O(1)
+        # return answer  
     
 if __name__ == "__main__":
     s = Solution()
