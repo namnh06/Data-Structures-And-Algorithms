@@ -17,5 +17,6 @@ assert Solution().insertionSort([2, 3, 1]) == [1, 2, 3], "Test case 3 failed."
 assert Solution().insertionSort([2, 1, 3]) == [1, 2, 3], "Test case 4 failed."
 assert Solution().insertionSort([5, 4, 3, 2, 1]) == [1, 2, 3, 4, 5], "Test case 5 failed."
 assert Solution().insertionSort([1, 2, 3, 4, 5]) == [1, 2, 3, 4, 5], "Test case 6 failed."
+assert Solution().insertionSort([5, 2, 4, 6, 3, 1]) == [1, 2, 3, 4, 5, 6], "Test case 7 failed."
 print("All test cases passed.")
 
