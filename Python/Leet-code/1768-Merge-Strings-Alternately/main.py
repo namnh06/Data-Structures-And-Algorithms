@@ -2,14 +2,21 @@ from typing import List
 
 class Solution:
     def mergeAlternately(self, word1: str, word2: str) -> str:
-        n, m = len(word1), len(word2)
+        # n, m = len(word1), len(word2)
         result: List[str] = []
         pointer: int = 0
-        while n > pointer and m > pointer:
-            result.append(word1[pointer])
-            result.append(word2[pointer])
-            pointer += 1
+        # while n > pointer and m > pointer:
+        #     result.append(word1[pointer])
+        #     result.append(word2[pointer])
+        #     pointer += 1
         
+        # result.append(word1[pointer:])
+        # result.append(word2[pointer:])
+        for a, b in zip(word1, word2):
+            pointer += 1
+            result.append(a)
+            result.append(b)
+            
         result.append(word1[pointer:])
         result.append(word2[pointer:])
         return ''.join(result)
